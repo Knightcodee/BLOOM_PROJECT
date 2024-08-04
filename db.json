@@ -1,0 +1,580 @@
+{
+    "plants": [
+        {
+            "id": 1,
+            "common_name": "Tree Clover",
+            "symbolism": "Three Leaf Clover, symbolizes good luck and fortune in many cultures.",
+            "care_guide": {
+                "water": "Allow the soil to dry out completely before watering.",
+                "light": "Bright indirect light environments.",
+                "tips": "Insert a toothpick into the soil to determine if it needs watering."
+            },
+            "description": "A caudiform plant with reddish and green leaves. Interestingly, the leaves fold up in pairs during the evening. Keep away from children and pets.",
+            "image_url": "./src/assets/image 1.png"
+        },
+        {
+            "id": 2,
+            "common_name": "Aloe Vera",
+            "symbolism": "It symbolizes Healing and protection in many cultures.",
+            "care_guide": {
+                "water": "Water deeply but infrequently, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect sunlight.",
+                "tips": "Check the top 2 inches of soil; if dry, it's time to water."
+            },
+            "description": "Succulent plant with thick, fleshy leaves that contain a soothing gel. Ideal for treating minor burns and skin irritations.",
+            "image_url": "./src/assets/image 2.png"
+        },
+        {
+            "id": 3,
+            "common_name": "Spider Plant",
+            "symbolism": "It symbolizes Health and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil evenly moist; do not let it dry out completely.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Arching green and white striped leaves with small white flowers. Known for its air-purifying qualities.",
+            "image_url": "./src/assets/image 3.png"
+        },
+        {
+            "id": 4,
+            "common_name": "Peace Lily",
+            "symbolism": "It symbolizes Peace and tranquility in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Glossy green leaves with white spathes. Effective at removing toxins from the air.",
+            "image_url": "./src/assets/image 4.png"
+        },
+        {
+            "id": 5,
+            "common_name": "Snake Plant",
+            "symbolism": "It symbolizes Resilience and strength in many cultures.",
+            "care_guide": {
+                "water": "Water sparingly; allow the soil to dry out completely between waterings.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Tall, upright leaves with green and yellow variegation. Known for its air-purifying qualities.",
+            "image_url": "./src/assets/image 5.png"
+        },
+        {
+            "id": 6,
+            "common_name": "Bamboo Palm",
+            "symbolism": "It symbolizes Good fortune and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil evenly moist but not soggy.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Feathery green fronds that add a tropical feel to any space. Effective at removing indoor air pollutants.",
+            "image_url": "./src/assets/image 6.png"
+        },
+        {
+            "id": 7,
+            "common_name": "Jade Plant",
+            "symbolism": "It symbolizes Wealth and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Water deeply but infrequently, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect sunlight.",
+                "tips": "Check the top 2 inches of soil; if dry, it's time to water."
+            },
+            "description": "Succulent plant with thick, fleshy leaves that are often used in Feng Shui to attract wealth.",
+            "image_url": "./src/assets/image 7.png"
+        },
+        {
+            "id": 8,
+            "common_name": "Orchid",
+            "symbolism": "It symbolizes Beauty and elegance in many cultures.",
+            "care_guide": {
+                "water": "Water once a week, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Delicate flowers in a variety of colors and shapes. Known for their long-lasting blooms.",
+            "image_url": "./src/assets/image 8.png"
+        },
+        {
+            "id": 9,
+            "common_name": "Fiddle Leaf Fig",
+            "symbolism": "It symbolizes Abundance and growth in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, glossy leaves that add a dramatic touch to any room. Prefers a humid environment.",
+            "image_url": "./src/assets/image 9.png"
+        },
+        {
+            "id": 10,
+            "common_name": "ZZ Plant",
+            "symbolism": "It symbolizes Endurance and stability in many cultures.",
+            "care_guide": {
+                "water": "Water sparingly; allow the soil to dry out completely between waterings.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Glossy, dark green leaves that are highly tolerant of neglect. Ideal for low-light conditions.",
+            "image_url": "./src/assets/image 10.png"
+        },
+        {
+            "id": 11,
+            "common_name": "Pothos",
+            "symbolism": "It symbolizes Perseverance and tenacity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Trailing vines with heart-shaped leaves. Known for its ability to thrive in a variety of conditions.",
+            "image_url": "./src/assets/image 11.png"
+        },
+        {
+            "id": 12,
+            "common_name": "Rubber Plant",
+            "symbolism": "It symbolizes Wealth and abundance in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, glossy leaves that add a touch of elegance to any space. Prefers a humid environment.",
+            "image_url": "./src/assets/image 12.png"
+        },
+        {
+            "id": 13,
+            "common_name": "Boston Fern",
+            "symbolism": "It symbolizes Health and well-being in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist but not soggy.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Lush, feathery fronds that add a touch of greenery to any space. Prefers a humid environment.",
+            "image_url": "./src/assets/image 13.png"
+        },
+        {
+            "id": 14,
+            "common_name": "Lavender",
+            "symbolism": "It symbolizes Calm and relaxation in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant purple flowers that are often used in aromatherapy. Prefers well-draining soil.",
+            "image_url": "./src/assets/image 14.png"
+        },
+        {
+            "id": 15,
+            "common_name": "Rosemary",
+            "symbolism": "It symbolizes Remembrance and fidelity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Woody herb with fragrant, needle-like leaves. Often used in cooking and for its aromatic properties.",
+            "image_url": "./src/assets/image 15.png"
+        },
+        {
+            "id": 16,
+            "common_name": "Mint",
+            "symbolism": "It symbolizes Virtue and warmth in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant green leaves that are often used in cooking and for their refreshing scent.",
+            "image_url": "./src/assets/image 16.png"
+        },
+        {
+            "id": 17,
+            "common_name": "Basil",
+            "symbolism": "It symbolizes Love and protection in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant green leaves that are often used in cooking, especially in Italian cuisine.",
+            "image_url": "./src/assets/image 17.png"
+        },
+        {
+            "id": 18,
+            "common_name": "Thyme",
+            "symbolism": "It symbolizes Courage and strength in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Woody herb with small, fragrant leaves. Often used in cooking and for its aromatic properties.",
+            "image_url": "./src/assets/image 18.png"
+        },
+        {
+            "id": 19,
+            "common_name": "Rose",
+            "symbolism": "It symbolizes Love and beauty in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Beautiful, fragrant flowers in a variety of colors. Known for their romantic symbolism.",
+            "image_url": "./src/assets/image 19.png"
+        },
+        {
+            "id": 20,
+            "common_name": "Tulip",
+            "symbolism": "It symbolizes Perfect love in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright, colorful flowers that bloom in the spring. Known for their elegant shape.",
+            "image_url": "./src/assets/image 20.png"
+        },
+        {
+            "id": 21,
+            "common_name": "Daffodil",
+            "symbolism": "It symbolizes New beginnings in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright yellow flowers that bloom in the spring. Known for their cheerful appearance.",
+            "image_url": "./src/assets/image 1.png"
+        },
+        {
+            "id": 22,
+            "common_name": "Sunflower",
+            "symbolism": "It symbolizes Adoration and loyalty in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Tall plants with large, bright yellow flowers that follow the sun. Known for their cheerful appearance.",
+            "image_url": "./src/assets/image 2.png"
+        },
+        {
+            "id": 23,
+            "common_name": "Marigold",
+            "symbolism": "It symbolizes Passion and creativity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright orange and yellow flowers that bloom throughout the summer. Known for their vibrant color.",
+            "image_url": "./src/assets/image 3.png"
+        },
+        {
+            "id": 24,
+            "common_name": "Chrysanthemum",
+            "symbolism": "It symbolizes Longevity and happiness in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, colorful flowers that bloom in the fall. Known for their long-lasting blooms.",
+            "image_url": "./src/assets/image 4.png"
+        },
+        {
+            "id": 1,
+            "common_name": "Tree Clover",
+            "symbolism": "It symbolizes Good luck and fortune in many cultures.",
+            "care_guide": {
+                "water": "Allow the soil to dry out completely before watering.",
+                "light": "Bright indirect light environments.",
+                "tips": "Insert a toothpick into the soil to determine if it needs watering."
+            },
+            "description": "A caudiform plant with reddish and green leaves. Interestingly, the leaves fold up in pairs during the evening. Keep away from children and pets.",
+            "image_url": "./src/assets/image 1.png"
+        },
+        {
+            "id": 2,
+            "common_name": "Aloe Vera",
+            "symbolism": "It symbolizes Healing and protection in many cultures.",
+            "care_guide": {
+                "water": "Water deeply but infrequently, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect sunlight.",
+                "tips": "Check the top 2 inches of soil; if dry, it's time to water."
+            },
+            "description": "Succulent plant with thick, fleshy leaves that contain a soothing gel. Ideal for treating minor burns and skin irritations.",
+            "image_url": "./src/assets/image 2.png"
+        },
+        {
+            "id": 3,
+            "common_name": "Spider Plant",
+            "symbolism": "It symbolizes Health and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil evenly moist; do not let it dry out completely.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Arching green and white striped leaves with small white flowers. Known for its air-purifying qualities.",
+            "image_url": "./src/assets/image 3.png"
+        },
+        {
+            "id": 4,
+            "common_name": "Peace Lily",
+            "symbolism": "It symbolizes Peace and tranquility in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Glossy green leaves with white spathes. Effective at removing toxins from the air.",
+            "image_url": "./src/assets/image 4.png"
+        },
+        {
+            "id": 5,
+            "common_name": "Snake Plant",
+            "symbolism": "It symbolizes Resilience and strength in many cultures.",
+            "care_guide": {
+                "water": "Water sparingly; allow the soil to dry out completely between waterings.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Tall, upright leaves with green and yellow variegation. Known for its air-purifying qualities.",
+            "image_url": "./src/assets/image 5.png"
+        },
+        {
+            "id": 6,
+            "common_name": "Bamboo Palm",
+            "symbolism": "It symbolizes Good fortune and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil evenly moist but not soggy.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Feathery green fronds that add a tropical feel to any space. Effective at removing indoor air pollutants.",
+            "image_url": "./src/assets/image 6.png"
+        },
+        {
+            "id": 7,
+            "common_name": "Jade Plant",
+            "symbolism": "It symbolizes Wealth and prosperity in many cultures.",
+            "care_guide": {
+                "water": "Water deeply but infrequently, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect sunlight.",
+                "tips": "Check the top 2 inches of soil; if dry, it's time to water."
+            },
+            "description": "Succulent plant with thick, fleshy leaves that are often used in Feng Shui to attract wealth.",
+            "image_url": "./src/assets/image 7.png"
+        },
+        {
+            "id": 8,
+            "common_name": "Orchid",
+            "symbolism": "It symbolizes Beauty and elegance in many cultures.",
+            "care_guide": {
+                "water": "Water once a week, allowing the soil to dry out between waterings.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Delicate flowers in a variety of colors and shapes. Known for their long-lasting blooms.",
+            "image_url": "./src/assets/image 8.png"
+        },
+        {
+            "id": 9,
+            "common_name": "Fiddle Leaf Fig",
+            "symbolism": "It symbolizes Abundance and growth in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, glossy leaves that add a dramatic touch to any room. Prefers a humid environment.",
+            "image_url": "./src/assets/image 9.png"
+        },
+        {
+            "id": 10,
+            "common_name": "ZZ Plant",
+            "symbolism": "It symbolizes Endurance and stability in many cultures.",
+            "care_guide": {
+                "water": "Water sparingly; allow the soil to dry out completely between waterings.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by inserting a finger into the soil up to the first knuckle."
+            },
+            "description": "Glossy, dark green leaves that are highly tolerant of neglect. Ideal for low-light conditions.",
+            "image_url": "./src/assets/image 10.png"
+        },
+        {
+            "id": 11,
+            "common_name": "Pothos",
+            "symbolism": "It symbolizes Perseverance and tenacity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Low to bright indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Trailing vines with heart-shaped leaves. Known for its ability to thrive in a variety of conditions.",
+            "image_url": "./src/assets/image 11.png"
+        },
+        {
+            "id": 12,
+            "common_name": "Rubber Plant",
+            "symbolism": "It symbolizes Wealth and abundance in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, glossy leaves that add a touch of elegance to any space. Prefers a humid environment.",
+            "image_url": "./src/assets/image 12.png"
+        },
+        {
+            "id": 13,
+            "common_name": "Boston Fern",
+            "symbolism": "It symbolizes Health and well-being in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist but not soggy.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Lush, feathery fronds that add a touch of greenery to any space. Prefers a humid environment.",
+            "image_url": "./src/assets/image 13.png"
+        },
+        {
+            "id": 14,
+            "common_name": "Lavender",
+            "symbolism": "It symbolizes Calm and relaxation in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant purple flowers that are often used in aromatherapy. Prefers well-draining soil.",
+            "image_url": "./src/assets/image 14.png"
+        },
+        {
+            "id": 15,
+            "common_name": "Rosemary",
+            "symbolism": "It symbolizes Remembrance and fidelity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Woody herb with fragrant, needle-like leaves. Often used in cooking and for its aromatic properties.",
+            "image_url": "./src/assets/image 15.png"
+        },
+        {
+            "id": 16,
+            "common_name": "Mint",
+            "symbolism": "It symbolizes Virtue and warmth in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant green leaves that are often used in cooking and for their refreshing scent.",
+            "image_url": "./src/assets/image 16.png"
+        },
+        {
+            "id": 17,
+            "common_name": "Basil",
+            "symbolism": "It symbolizes Love and protection in many cultures.",
+            "care_guide": {
+                "water": "Keep the soil consistently moist.",
+                "light": "Bright, indirect light.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Fragrant green leaves that are often used in cooking, especially in Italian cuisine.",
+            "image_url": "./src/assets/image 17.png"
+        },
+        {
+            "id": 18,
+            "common_name": "Thyme",
+            "symbolism": "It symbolizes Courage and strength in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Woody herb with small, fragrant leaves. Often used in cooking and for its aromatic properties.",
+            "image_url": "./src/assets/image 18.png"
+        },
+        {
+            "id": 19,
+            "common_name": "Rose",
+            "symbolism": "It symbolizes Love and beauty in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Beautiful, fragrant flowers in a variety of colors. Known for their romantic symbolism.",
+            "image_url": "./src/assets/image 19.png"
+        },
+        {
+            "id": 20,
+            "common_name": "Tulip",
+            "symbolism": "It symbolizes Perfect love in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright, colorful flowers that bloom in the spring. Known for their elegant shape.",
+            "image_url": "./src/assets/image 20.png"
+        },
+        {
+            "id": 21,
+            "common_name": "Daffodil",
+            "symbolism": "It symbolizes New beginnings in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright yellow flowers that bloom in the spring. Known for their cheerful appearance.",
+            "image_url": "./src/assets/image 1.png"
+        },
+        {
+            "id": 22,
+            "common_name": "Sunflower",
+            "symbolism": "It symbolizes Adoration and loyalty in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Tall plants with large, bright yellow flowers that follow the sun. Known for their cheerful appearance.",
+            "image_url": "./src/assets/image 2.png"
+        },
+        {
+            "id": 23,
+            "common_name": "Marigold",
+            "symbolism": "It symbolizes Passion and creativity in many cultures.",
+            "care_guide": {
+                "water": "Water when the top inch of soil is dry.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Bright orange and yellow flowers that bloom throughout the summer. Known for their vibrant color.",
+            "image_url": "./src/assets/image 3.png"
+        },
+        {
+            "id": 24,
+            "common_name": "Chrysanthemum",
+            "symbolism": "It symbolizes Longevity and happiness in many cultures.",
+            "care_guide": {
+                "water": "Water regularly to keep the soil moist but not soggy.",
+                "light": "Full sunlight.",
+                "tips": "Check the soil moisture by feeling the top inch of soil."
+            },
+            "description": "Large, colorful flowers that bloom in the fall. Known for their long-lasting blooms.",
+            "image_url": "./src/assets/image 4.png"
+        }
+    ]
+}
