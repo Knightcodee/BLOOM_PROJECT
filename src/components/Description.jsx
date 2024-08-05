@@ -2,6 +2,16 @@ import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivid
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
+// Import images statically if possible
+import image1 from '../assets/image1.png'; // Adjust the path as needed
+import image2 from '../assets/image2.png'; // Adjust the path as needed
+
+const imageMap = {
+    'image1.png': image1,
+    'image2.png': image2,
+    // Add other image mappings here
+};
+
 function Description() {
     const [imageSrc, setImageSrc] = useState(null);
     const [plant, setPlant] = useState({});
@@ -20,14 +30,14 @@ function Description() {
 
     useEffect(() => {
         loadData();
-    }, [id]); // Add id as a dependency to refetch if the id changes
+    }, [id]);
 
     useEffect(() => {
         if (plant.image_url) {
-            // Assuming image_url is a valid path in the public directory or handled by static imports
-            setImageSrc(`/images/${plant.image_url}`);
+            const imagePath = plant.image_url;
+            setImageSrc(imageMap[imagePath] || null); // Set imageSrc from imageMap
         }
-    }, [plant.image_url]); // Update the imageSrc when plant.image_url changes
+    }, [plant.image_url]);
 
     return (
         <>
