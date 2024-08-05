@@ -2,9 +2,9 @@ import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivid
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
-// Import images statically if possible
-import image1 from '../assets/image1.png'; // Adjust the path as needed
-import image2 from '../assets/image2.png'; // Adjust the path as needed
+// Adjust import paths based on the actual file structure
+import image1 from '../assets/image1.png';
+import image2 from '../assets/image2.png';
 
 const imageMap = {
     'image1.png': image1,
