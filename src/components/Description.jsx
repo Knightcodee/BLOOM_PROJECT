@@ -1,5 +1,5 @@
-import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivider, Text } from '@chakra-ui/react'
-import { useEffect, useState } from 'react'
+import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivider, Text } from '@chakra-ui/react';
+import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
 function Description() {
@@ -9,24 +9,25 @@ function Description() {
     const navigate = useNavigate();
 
     const loadData = async () => {
-        let res = await fetch(`http://localhost:3000/plants/${id}`);
-        setPlant(await res.json());
-    }
+        try {
+            const res = await fetch(`http://localhost:3000/plants/${id}`);
+            const data = await res.json();
+            setPlant(data);
+        } catch (error) {
+            console.error('Failed to fetch plant data', error);
+        }
+    };
 
     useEffect(() => {
         loadData();
-        // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [])
+    }, [id]); // Add id as a dependency to refetch if the id changes
 
-    if (plant.image_url !== undefined) {
-        import('../../' + plant.image_url)
-            .then(image => {
-                setImageSrc(image.default);
-            })
-            .catch(err => {
-                console.error('Failed to load image', err);
-            })
-    }
+    useEffect(() => {
+        if (plant.image_url) {
+            // Assuming image_url is a valid path in the public directory or handled by static imports
+            setImageSrc(`/images/${plant.image_url}`);
+        }
+    }, [plant.image_url]); // Update the imageSrc when plant.image_url changes
 
     return (
         <>
@@ -94,13 +95,13 @@ function Description() {
                             </Card>
                         </Box>
                         <Box w={'40%'} p={'40px'}>
-                            <Image src={imageSrc} h={'350px'} />
+                            {imageSrc && <Image src={imageSrc} h={'350px'} />}
                         </Box>
                     </Flex>
                 }
             </Flex>
         </>
-    )
+    );
 }
 
-export default Description
+export default Description;
