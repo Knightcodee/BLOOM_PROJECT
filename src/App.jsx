@@ -1,14 +1,12 @@
-import AllRoutes from "./components/AllRoutes"
+// App.jsx
+import AllRoutes from './components/AllRoutes';
 
 function App() {
-
   return (
-    <BrowserRouter basename={window.location.pathname || '' }>
     <>
       <AllRoutes />
     </>
-    </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
