@@ -1,18 +1,6 @@
-import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivider, Text } from '@chakra-ui/react';
-import { useEffect, useState } from 'react';
+import { Box, Button, Card, CardBody, CardHeader, Flex, Image, Stack, StackDivider, Text } from '@chakra-ui/react'
+import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom';
-
-// Adjust import paths based on the actual file structure
-import image1 from '../../assets/image1.png';
-import image2 from '../../assets/image2.png';
-
-
-
-const imageMap = {
-    'image1.png': image1,
-    'image2.png': image2,
-    // Add other image mappings here
-};
 
 function Description() {
     const [imageSrc, setImageSrc] = useState(null);
@@ -21,25 +9,24 @@ function Description() {
     const navigate = useNavigate();
 
     const loadData = async () => {
-        try {
-            const res = await fetch(`http://localhost:3000/plants/${id}`);
-            const data = await res.json();
-            setPlant(data);
-        } catch (error) {
-            console.error('Failed to fetch plant data', error);
-        }
-    };
+        let res = await fetch(`http://localhost:3000/plants/${id}`);
+        setPlant(await res.json());
+    }
 
     useEffect(() => {
         loadData();
-    }, [id]);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
-    useEffect(() => {
-        if (plant.image_url) {
-            const imagePath = plant.image_url;
-            setImageSrc(imageMap[imagePath] || null); // Set imageSrc from imageMap
-        }
-    }, [plant.image_url]);
+    if (plant.image_url !== undefined) {
+        import('../../' + plant.image_url)
+            .then(image => {
+                setImageSrc(image.default);
+            })
+            .catch(err => {
+                console.error('Failed to load image', err);
+            })
+    }
 
     return (
         <>
@@ -107,13 +94,13 @@ function Description() {
                             </Card>
                         </Box>
                         <Box w={'40%'} p={'40px'}>
-                            {imageSrc && <Image src={imageSrc} h={'350px'} />}
+                            <Image src={imageSrc} h={'350px'} />
                         </Box>
                     </Flex>
                 }
             </Flex>
         </>
-    );
+    )
 }
 
-export default Description;
+export default Description
