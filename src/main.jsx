@@ -7,10 +7,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename={window.location.pathname || '' }>
+    <BrowserRouter basename={window.location.pathname || '' }> <>
       <ChakraProvider>
         <App />
       </ChakraProvider>
-    </BrowserRouter>
+      </> </BrowserRouter>
   </React.StrictMode>
 );
