@@ -3,8 +3,9 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 
 // Adjust import paths based on the actual file structure
-import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
+import image1 from '../../assets/image1.png';
+import image2 from '../../assets/image2.png';
+
 
 
 const imageMap = {
