@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/BLOOM-PROJECT">
+    <BrowserRouter basename={window.location.pathname || '' }>>
       <ChakraProvider>
         <App />
       </ChakraProvider>
